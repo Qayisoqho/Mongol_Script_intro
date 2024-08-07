@@ -1,0 +1,62 @@
+﻿# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: mostaert
+  name: "蒙古语田清波转写"
+  version: "v1.0.240806"
+  author:
+    - kaeso<https://github.com/Qayisoqho>
+  description: |
+
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 蒙古, 西文 ]
+
+engine:
+  processors:
+    - ascii_composer
+#    - key_binder
+    - speller
+    - punctuator  # 先於 editor 才會使空格作符號上屏
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - table_translator
+
+menu:
+  alternative_select_keys: "123456789"
+
+speller:
+  alphabet: '[].!abcdefghijklmnopqrstuvwxyz`'';'
+  delimiter: ' '
+  algebra:
+    - derive/^[`]?([hwmnlrabdeogkjqxz!])['yh.oiug[]w;]*$/$1/
+  auto_select: true #
+
+translator:
+  dictionary: mostaert
+  enable_user_dict: false
+  enable_sentence: true
+
+
+style:
+  font_face: "Times New Roman"
+
+punctuator:  
+  use_space: true
+  half_shape: &punct
+    '?' : { commit: '?' }
+    ',' : { commit: ',' }
+
+#key_binder:
+#  import_preset: default
