@@ -37,10 +37,10 @@ menu:
   alternative_select_keys: "123456789"
 
 speller:
-  alphabet: '[].!abcdefghijklmnopqrstuvwxyz`'';'
+  alphabet: '[].!-abcdefghijklmnopqrstuvwxyz`'';'
   delimiter: ' '
   algebra:
-    - derive/^[`]?([hwmnlrabdeogkjqxz!])['yh.oiug[]w;]*$/$1/
+    - derive/^[`-]?([hwmnlrabdeogkjqxz!])['yh.oiug[]w;]*$/$1/
   auto_select: true #
 
 translator:
