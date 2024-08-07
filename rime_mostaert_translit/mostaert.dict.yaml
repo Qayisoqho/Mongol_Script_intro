@@ -1,0 +1,172 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# mostaert transcription by kaseso
+#
+# 
+# Author:
+#  - kaeso<https://github.com/Qayisoqho>
+#  - 2024.08.06
+#
+# 版權歸作者所有
+#
+
+---
+name: mostaert
+version: "v1.0.240806"
+sort: original
+...
+
+# voyelles
+a	a
+ā	aa
+ȧ	a.
+ä	a..
+ǟ	ai
+å	ao
+e	e
+ē	ee
+ė	e.
+i	i
+ī	ii
+ī	ei
+u͔	u]
+ū͔	u]u
+u	u[
+ū	u[u
+ɯ	u
+ɯ̄	uu
+ü	u..
+o	o]
+ō	o]o
+ȯ	o.
+ö	o
+ȫ	oo
+
+# diphtongs
+ui̯	u]i
+ȯö̯	oi
+ɯi̯	ui
+
+# consonnes
+kʽ	k
+ɢ	g
+χ	k]
+ɡ	gh
+ɡ͔	gh]
+ɢ͔	g]
+ᵏχ	kh
+j	y
+tšʽ	q
+ᴅž	j
+š	x
+ž	`z
+tʽ	t
+ᴅ	d
+tsʽ	c
+ᴅz	z
+s	s
+z	`z
+f	f
+pʽ	p
+ʙ	b
+b	bh
+𝑤	w
+w	wh
+ʟ	lh
+l	l
+ʀ	rh
+r	r
+η	ng
+n	n
+m	m
+
+# douces assoudies
+k	g'
+t	d'
+p	b'
+ʽtš	hq
+
+# combinations
+kʽö	ko
+ɢö	go
+ɡö	gho
+ᵏχö	kho
+jö	yo
+tšʽö	qo
+ᴅžö	jo
+šö	xo
+tʽö	to
+ᴅö	do
+tsʽö	co
+sö	so
+ᴅzö	zo
+pʽö	po
+ʙö	bo
+bö	bho
+𝑤ö	wo
+lö	lo
+rö	ro
+ηö	ngo
+nö	no
+mö	mo
+
+kʽᴖ̈̄	koi
+ɢᴖ̈̄	goi
+ɡᴖ̈̄	ghoi
+ᵏχᴖ̈̄	khoi
+jᴖ̈̄	yoi
+tšʽᴖ̈̄	qoi
+ᴅžᴖ̈̄	joi
+šᴖ̈̄	xoi
+tʽᴖ̈̄	toi
+ᴅᴖ̈̄	doi
+tsʽᴖ̈̄	coi
+ᴅzᴖ̈̄	zoi
+sᴖ̈̄	soi
+pʽᴖ̈̄	poi
+ʙᴖ̈̄	boi
+bᴖ̈̄	bhoi
+𝑤ᴖ̈̄	woi
+lᴖ̈̄	loi
+rᴖ̈̄	roi
+ηᴖ̈̄	ngoi
+nᴖ̈̄	noi
+mᴖ̈̄	moi
+
+tšʽǖ	qui
+ᴅžǖ	jui
+šǖ	xui
+
+ǟẽ	aien
+
+#coarticulation
+kʽᵘ	kw
+χᵘ	k]w
+ɢᵘ	gw
+ɡᵘ	ghw
+ɢ͔ᵘ	g]w
+ᵏχᵘ	khw
+
+kʽᵃ	k;
+χᵃ	k];
+ɢᵃ	g;
+ɡᵃ	gh;
+ɢ͔ᵃ	g];
+ᵏχᵃ	kh;
+
+mⁱ	my
+nⁱ	ny
+lⁱ	ly
+
+ʽ	h
+
+# superscript
+¹	`
+²	`
+³	`
+⁴	`
+⁵	`
+ꜝ	`!
+
+
