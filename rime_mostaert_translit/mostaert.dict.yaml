@@ -17,47 +17,54 @@ version: "v1.0.240806"
 sort: original
 ...
 
-# presets
--	-
-
 # voyelles
+
+## basics
+a	a
+ā	aa
+ǟ	ai
+e	e
+ē	ee
+i	i
+ī	ii
+u͔	v
+ū͔	vv
+u	v
+ū	vv
+ɯ	u
+ɯ̄	uu
+o	c
+ō	cc
+ö	o
+ȫ	oo
+
+## diacritics
 a	a
 ā	aa
 ȧ	a.
 ä	a..
-ǟ	ai
 å	ao
-e	e
-ē	ee
 ė	e.
-i	i
-ī	ii
 ī	ei
-u͔	u]
-ū͔	u]u
-u	u[
-ū	u[u
-ɯ	u
-ɯ̄	uu
 ü	u..
-o	o]
-ō	o]o
 ȯ	o.
-ö	o
-ȫ	oo
+
+# presets
+-	-
 
 # diphtongs
-ui̯	u]i
-ȯö̯	oi
+ui̯	vi
+ȯö̯	ci
 ɯi̯	ui
+ȧe̯	ae
 
 # consonnes
 kʽ	k
-ɢ	g
+ɢ	gg
 χ	k]
-ɡ	gh
-ɡ͔	gh]
-ɢ͔	g]
+ɡ	g
+ɡ͔	g]
+ɢ͔	gg]
 ᵏχ	kh
 j	y
 tšʽ	q
@@ -85,17 +92,18 @@ n	n
 m	m
 
 # douces assoudies
-k	g'
+k	gg'
+k͔	gg]'
 t	d'
 p	b'
 ʽtš	hq
 
 # combinations
-uɡᵘē	ughwee
+uɡᵘē	ugwee
 
 kʽö	ko
-ɢö	go
-ɡö	gho
+ɢö	ggo
+ɡö	go
 ᵏχö	kho
 jö	yo
 tšʽö	qo
@@ -103,7 +111,7 @@ tšʽö	qo
 šö	xo
 tʽö	to
 ᴅö	do
-tsʽö	co
+tsʽö	tso
 sö	so
 ᴅzö	zo
 pʽö	po
@@ -116,29 +124,29 @@ rö	ro
 nö	no
 mö	mo
 
-kʽᴖ̈̄	koi
-ɢᴖ̈̄	goi
-ɡᴖ̈̄	ghoi
-ᵏχᴖ̈̄	khoi
-jᴖ̈̄	yoi
-tšʽᴖ̈̄	qoi
-ᴅžᴖ̈̄	joi
-šᴖ̈̄	xoi
-tʽᴖ̈̄	toi
-ᴅᴖ̈̄	doi
-tsʽᴖ̈̄	coi
-ᴅzᴖ̈̄	zoi
-sᴖ̈̄	soi
-pʽᴖ̈̄	poi
-ʙᴖ̈̄	boi
-bᴖ̈̄	bhoi
-𝑤ᴖ̈̄	woi
-lᴖ̈̄	loi
-rᴖ̈̄	roi
-ηᴖ̈̄	ngoi
-nᴖ̈̄	noi
-mᴖ̈̄	moi
--ᴖ̈̄	-oi
+kʽᴖ̈̄	kci
+ɢᴖ̈̄	ggci
+ɡᴖ̈̄	gci
+ᵏχᴖ̈̄	khci
+jᴖ̈̄	yci
+tšʽᴖ̈̄	qci
+ᴅžᴖ̈̄	jci
+šᴖ̈̄	xci
+tʽᴖ̈̄	tci
+ᴅᴖ̈̄	dci
+tsʽᴖ̈̄	cci
+ᴅzᴖ̈̄	zci
+sᴖ̈̄	sci
+pʽᴖ̈̄	pci
+ʙᴖ̈̄	bci
+bᴖ̈̄	bhci
+𝑤ᴖ̈̄	wci
+lᴖ̈̄	lci
+rᴖ̈̄	rci
+ηᴖ̈̄	ngci
+nᴖ̈̄	nci
+mᴖ̈̄	mci
+-ᴖ̈̄	-ci
 
 tšʽǖ	qui
 ᴅžǖ	jui
@@ -149,18 +157,18 @@ ǟẽ	aien
 #coarticulation
 kʽᵘ	kw
 χᵘ	k]w
-ɢᵘ	gw
-ɡᵘ	ghw
-ɡ͔ᵘ	gh]w
-ɢ͔ᵘ	g]w
+ɢᵘ	ggw
+ɡᵘ	gw
+ɡ͔ᵘ	g]w
+ɢ͔ᵘ	gg]w
 ᵏχᵘ	khw
 
 kʽᵃ	k;
 χᵃ	k];
-ɢᵃ	g;
-ɡᵃ	gh;
-ɡ͔ᵃ	gh];
-ɢ͔ᵃ	g];
+ɢᵃ	gg;
+ɡᵃ	g;
+ɡ͔ᵃ	g];
+ɢ͔ᵃ	gg];
 ᵏχᵃ	kh;
 
 mⁱ	my
