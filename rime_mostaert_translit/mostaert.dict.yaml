@@ -17,6 +17,9 @@ version: "v1.0.240806"
 sort: original
 ...
 
+# presets
+-	-
+
 # voyelles
 a	a
 ā	aa
@@ -135,6 +138,7 @@ rᴖ̈̄	roi
 ηᴖ̈̄	ngoi
 nᴖ̈̄	noi
 mᴖ̈̄	moi
+-ᴖ̈̄	-oi
 
 tšʽǖ	qui
 ᴅžǖ	jui
